@@ -1,0 +1,50 @@
+*{
+    scroll-behavior: (0.0) smooth;
+}
+
+body{
+    font: 20px Arial, sans-serif;
+}
+.navbar {
+    background-color: #ffffff;
+    height: 80px;
+}
+
+.imgLogo{
+    width: 95px;
+}
+
+.quem-somos{
+    background-color: rgb(35, 144, 233);
+    color: white;
+}
+
+.margin{   
+    padding-bottom: 50px;    
+    padding-top: 10px;
+}
+
+.nameBebidas{
+    font-weight: 15pt;
+    font-weight: bold;
+}
+
+.parceiros{
+    background-image: linear-gradient(rgb(35, 144, 233), #fff);
+}
+
+.bg-footer{
+    background-image: linear-gradient( #fff, rgb(35, 144, 233));
+}
+
+.footerFake{
+    text-decoration: none;
+    color: #000;
+    outline: none;
+}
+
+.footerFake:hover {
+    text-decoration: none;
+    color: #000;
+    outline: none;
+}
