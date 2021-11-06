@@ -5,8 +5,23 @@
 body{
     font: 20px Arial, sans-serif;
 }
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #e6b98c;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(58, 58, 58);
+    border-radius: 20px;
+    border: 3px solid rgb(58, 58, 58);
+}
+
 .navbar {
-    background-color: #ffffff;
+    background-color: #e6b98c;
     height: 80px;
 }
 
@@ -14,8 +29,36 @@ body{
     width: 190px;
 }
 
+.teste{
+    filter: blur(2.5px);
+}
+
+.houseLogo{
+    position: absolute;
+    top:25%;
+    left: 35.2%;
+    width: 420px;
+    height: 200px;
+    
+    border-radius: 15px;
+}
+
+.txtFake{
+    color: transparent;
+}
+
+.imgFake{
+    border: none;
+}
+
+.bdcFoto{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+}
+
 .quem-somos{
-    background-image: url("https://diariodorio.com/wp-content/uploads/2019/09/Blind-Pig-por-Alex-Woloch-0903-media.jpg");
+    background-image: url("https://www.sebraeatende.com.br/sites/default/files/conteudo-digital/Adega.jpg");
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,7 +67,7 @@ body{
 
 .margin{   
     padding-bottom: 50px;    
-    padding-top: 10px;
+    padding-top: px;
 }
 
 .nameBebidas{
@@ -32,12 +75,16 @@ body{
     font-weight: bold;
 }
 
+.cards{
+    border: none;
+}
+
 .parceiros{
     background-image: linear-gradient(rgb(35, 144, 233), #fff);
 }
 
 .bg-footer{
-    background-image: linear-gradient( #fff, rgb(35, 144, 233));
+    background-image: linear-gradient( #fff, #e6b98c);
 }
 
 .footerFake{
